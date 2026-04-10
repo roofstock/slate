@@ -3,5 +3,16 @@
 # These owners will be the default owners for everything in
 # the repo. Unless a later match takes precedence,
 *       @roofstock/retail-mercury
+
+# 
+# DevOps is code owner for everything below, with some exceptions
+#
+
+# Atlassian Compass's Config-as-code
+compass.yml @roofstock/devops
+
+# GitHub
 /.github/ @roofstock/devops
+
+# Exceptions in /.github
 /.github/copilot-instructions.md    @roofstock/retail-mercury
